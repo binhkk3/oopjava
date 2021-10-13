@@ -7,12 +7,7 @@ public class main {
         output(listBook);
         findName("2", listBook);
         System.out.println("Tong tien la "+ totalMoney(listBook));
-
-
         }
-
-
-
     public static void input(Book[] listBook) {
         for (int i = 0; i < 3; i++) {
             Scanner scanner = new Scanner(System.in);
